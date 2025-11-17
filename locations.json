@@ -1,0 +1,716 @@
+[
+    {
+        "name": "Bessemer Treatment Center",
+        "city": "Bessemer",
+        "latitude": "33.368380504257395",
+        "longitude": "-86.939743057671691"
+    },
+    {
+        "name": "Cullman Treatment Center",
+        "city": "Cullman",
+        "latitude": "34.205209084695930",
+        "longitude": "-86.875262315343377"
+    },
+    {
+        "name": "Gadsden Treatment Center",
+        "city": "Gadsden",
+        "latitude": "34.021490426600074",
+        "longitude": "-86.018012308273413"
+    },
+    {
+        "name": "Huntsville Treatment Center",
+        "city": "Huntsville",
+        "latitude": "34.739446078708070",
+        "longitude": "-86.630508792408662"
+    },
+    {
+        "name": "Mobile Medical Services",
+        "city": "Mobile",
+        "latitude": "30.671293272837140",
+        "longitude": "-88.144240356616109"
+    },
+    {
+        "name": "Montgomery Medical Services",
+        "city": "Montgomery",
+        "latitude": "32.351860163026856",
+        "longitude": "-86.167850494117360"
+    },
+    {
+        "name": "Mobile Treatment Center (ECD)",
+        "city": "Mobile",
+        "latitude": "30.673057254095049",
+        "longitude": "-88.145031510594436"
+    },
+    {
+        "name": "Shoals/Sheffield Treatment Center",
+        "city": "Shoals/Sheffield",
+        "latitude": "34.766916087141979",
+        "longitude": "-87.676004131027028"
+    },
+    {
+        "name": "Stevenson Treatment Center",
+        "city": "Stevenson",
+        "latitude": "34.871965913423303",
+        "longitude": "-85.809311061629785"
+    },
+    {
+        "name": "Tuscaloosa Treatment Center",
+        "city": "Tuscaloosa",
+        "latitude": "33.155546486947472",
+        "longitude": "-87.551793347533518"
+    },
+    {
+        "name": "Batesville Medical Services",
+        "city": "Batesville",
+        "latitude": "35.770691480966001",
+        "longitude": "-91.652076360956585"
+    },
+    {
+        "name": "Conway Medical Services",
+        "city": "Conway",
+        "latitude": "35.094147069505773",
+        "longitude": "-92.441548438166080"
+    },
+    {
+        "name": "Fayetteville Medical Services",
+        "city": "Fayetteville",
+        "latitude": "36.099373395402495",
+        "longitude": "-94.158710037408099"
+    },
+    {
+        "name": "Fort Smith Medical Services",
+        "city": "Fort Smith",
+        "latitude": "35.368095855250658",
+        "longitude": "-94.371658361260231"
+    },
+    {
+        "name": "Hot Springs Medical Services",
+        "city": "Hot Springs",
+        "latitude": "34.468277930476766",
+        "longitude": "-93.067732569885891"
+    },
+    {
+        "name": "Jonesboro Medical Services",
+        "city": "Jonesboro",
+        "latitude": "35.777976515572625",
+        "longitude": "-90.751643968909931"
+    },
+    {
+        "name": "North Little Rock (OBOT) Medical Services",
+        "city": "North Little Rock",
+        "latitude": "34.785863988084657",
+        "longitude": "-92.217417231013101"
+    },
+    {
+        "name": "North Little Rock (OTP) Medical Services",
+        "city": "North Little Rock",
+        "latitude": "34.785793642420323",
+        "longitude": "-92.217713692374076"
+    },
+    {
+        "name": "Texarkana Medical Services",
+        "city": "Texarkana",
+        "latitude": "33.475398210306800",
+        "longitude": "-94.019509208666733"
+    },
+    {
+        "name": "Phoenix Treatment Center",
+        "city": "Phoenix",
+        "latitude": "33.448757230526198",
+        "longitude": "-112.049690047324802"
+    },
+    {
+        "name": "Tempe Treatment Center",
+        "city": "Tempe",
+        "latitude": "33.392500500000011",
+        "longitude": "-111.895442111649402"
+    },
+    {
+        "name": "Tucson Treatment Center",
+        "city": "Tucson",
+        "latitude": "32.252545010999974",
+        "longitude": "-110.972619070887475"
+    },
+    {
+        "name": "Centennial Treatment Center",
+        "city": "Centennial",
+        "latitude": "39.585512949577392",
+        "longitude": "-104.884898373277579"
+    },
+    {
+        "name": "Colorado Springs Treatment Center",
+        "city": "Colorado Springs",
+        "latitude": "38.893235085811945",
+        "longitude": "-104.849151743164285"
+    },
+    {
+        "name": "Denver Downtown Treatment Center",
+        "city": "Denver",
+        "latitude": "39.707863922655370",
+        "longitude": "-104.925801519774154"
+    },
+    {
+        "name": "Fort Collins Treatment Center",
+        "city": "Fort Collins",
+        "latitude": "40.567317952747722",
+        "longitude": "-105.037795779840707"
+    },
+    {
+        "name": "Longmont Treatment Center",
+        "city": "Longmont",
+        "latitude": "40.200912651798816",
+        "longitude": "-105.105436603447274"
+    },
+    {
+        "name": "Westminster Treatment Center(Intake and Dosing)",
+        "city": "Westminster",
+        "latitude": "39.849545312189939",
+        "longitude": "-105.020218054653725"
+    },
+    {
+        "name": "Westminster Treatment Center (counseling services address)",
+        "city": "Westminster",
+        "latitude": "39.850139179517967",
+        "longitude": "-105.019493034996671"
+    },
+    {
+        "name": "Albany Treatment Center",
+        "city": "Albany",
+        "latitude": "31.623852888405363",
+        "longitude": "-84.203211617338866"
+    },
+    {
+        "name": "Bremen Medical Services",
+        "city": "Bremen",
+        "latitude": "33.697949042468288",
+        "longitude": "-85.146579362486946"
+    },
+    {
+        "name": "Jackson Treatment Center",
+        "city": "Jackson",
+        "latitude": "33.302391321113156",
+        "longitude": "-83.974389770728251"
+    },
+    {
+        "name": "Tifton Treatment Center",
+        "city": "Tifton",
+        "latitude": "31.476843852564361",
+        "longitude": "-83.503655500000008"
+    },
+    {
+        "name": "Boise Treatment Center",
+        "city": "Boise",
+        "latitude": "43.604412161611513",
+        "longitude": "-116.273062646524721"
+    },
+    {
+        "name": "Meridian Treatment Center",
+        "city": "Meridian",
+        "latitude": "43.584649161139417",
+        "longitude": "-116.355440654500867"
+    },
+    {
+        "name": "Coeur D'Alene Treatment Center",
+        "city": "Coeur D'Alene",
+        "latitude": "47.692880397477381",
+        "longitude": "-116.804121780158709"
+    },
+    {
+        "name": "Fort Wayne Treatment Center",
+        "city": "Fort Wayne",
+        "latitude": "41.114222760372321",
+        "longitude": "-85.144706564614225"
+    },
+    {
+        "name": "Davenport Treatment Center",
+        "city": "Davenport",
+        "latitude": "41.559406912682100",
+        "longitude": "-90.577412863656349"
+    },
+    {
+        "name": "Des Moines Treatment Center",
+        "city": "Des Moines",
+        "latitude": "41.602392686018518",
+        "longitude": "-93.617602848856862"
+    },
+    {
+        "name": "Houma Treatment Center(OTP)",
+        "city": "Houma",
+        "latitude": "29.604467912464088",
+        "longitude": "-90.755264480608901"
+    },
+    {
+        "name": "Houma Treatment Center(OBOT)",
+        "city": "Houma",
+        "latitude": "29.604542538477258",
+        "longitude": "-90.755479057310069"
+    },
+    {
+        "name": "Lake Charles Treatment Center",
+        "city": "Lake Charles",
+        "latitude": "30.175843595513555",
+        "longitude": "-93.218825142178048"
+    },
+    {
+        "name": "Monroe Treatment Center",
+        "city": "Monroe",
+        "latitude": "32.487776369524397",
+        "longitude": "-92.081562932662152"
+    },
+    {
+        "name": "New Orleans Downtown Treatment Center",
+        "city": "New Orleans",
+        "latitude": "29.957993577641496",
+        "longitude": "-90.089178319020647"
+    },
+    {
+        "name": "New Orleans Westbank Treatment Center",
+        "city": "Gretna",
+        "latitude": "29.906528125895854",
+        "longitude": "-90.042353380414966"
+    },
+    {
+        "name": "Shreveport Treatment Center",
+        "city": "Shreveport",
+        "latitude": "32.499584591917461",
+        "longitude": "-93.745654855824654"
+    },
+    {
+        "name": "Kansas City North Treatment Center",
+        "city": "Kansas City",
+        "latitude": "39.117706683771161",
+        "longitude": "-94.621121396383515"
+    },
+    {
+        "name": "Lawrence Treatment Center",
+        "city": "Lawrence",
+        "latitude": "38.949072608561956",
+        "longitude": "-95.222263897098088"
+    },
+    {
+        "name": "Overland Park Treatment Center",
+        "city": "Overland",
+        "latitude": "38.929747861934352",
+        "longitude": "-94.660102550516541"
+    },
+    {
+        "name": "Berea Treatment Center",
+        "city": "Berea",
+        "latitude": "37.584922390234318",
+        "longitude": "-84.290380951594884"
+    },
+    {
+        "name": "Bowling Green Treatment Center",
+        "city": "Bowling",
+        "latitude": "37.009020141215665",
+        "longitude": "-86.414931953200778"
+    },
+    {
+        "name": "Corbin Treatment Center",
+        "city": "Corbin",
+        "latitude": "36.962433535113995",
+        "longitude": "-84.072711268000262"
+    },
+    {
+        "name": "Elizabethtown Treatment Center",
+        "city": "Elizabethtown",
+        "latitude": "37.676510216306028",
+        "longitude": "-85.900419782202647"
+    },
+    {
+        "name": "Frankfort Treatment Center",
+        "city": "Frankfort",
+        "latitude": "38.150751562655529",
+        "longitude": "-84.895006440360916"
+    },
+    {
+        "name": "Hazard Treatment Center",
+        "city": "Hazard",
+        "latitude": "37.290043707605953",
+        "longitude": "-83.208223383084274"
+    },
+    {
+        "name": "Lexington Treatment Center",
+        "city": "Lexington",
+        "latitude": "38.070436303860262",
+        "longitude": "-84.481949106784299"
+    },
+    {
+        "name": "Louisville Treatment Center",
+        "city": "Louisville",
+        "latitude": "38.234746880544940",
+        "longitude": "-85.629590543695755"
+    },
+    {
+        "name": "Paducah Treatment Center",
+        "city": "Paducah",
+        "latitude": "37.070999475584131",
+        "longitude": "-88.701449405977655"
+    },
+    {
+        "name": "Paintsville Treatment Center",
+        "city": "Paintsville",
+        "latitude": "37.810905527989028",
+        "longitude": "-82.800989644034431"
+    },
+    {
+        "name": "Richmond Treatment Center",
+        "city": "Richmond",
+        "latitude": "37.759617206682115",
+        "longitude": "-84.270101974755093"
+    },
+    {
+        "name": "Pikeville Treatment Center",
+        "city": "Pikeville",
+        "latitude": "37.467552244148358",
+        "longitude": "-82.532489798284828"
+    },
+    {
+        "name": "Hagerstown Treatment Center",
+        "city": "Hagerstown",
+        "latitude": "39.639063712003157",
+        "longitude": "-77.716696827212701"
+    },
+    {
+        "name": "Brainerd Treatment Center",
+        "city": "Brainerd",
+        "latitude": "46.332031177801333",
+        "longitude": "-94.200410705390212"
+    },
+    {
+        "name": "Brooklyn Park Treatment Center",
+        "city": "Brooklyn Park",
+        "latitude": "45.096097236164283",
+        "longitude": "-93.318511983813622"
+    },
+    {
+        "name": "Minneapolis Treatment Center",
+        "city": "Minneapolis",
+        "latitude": "44.969836912348562",
+        "longitude": "-93.210431191310889"
+    },
+    {
+        "name": "Woodbury Treatment Center",
+        "city": "Woodbury",
+        "latitude": "44.948156330365116",
+        "longitude": "-92.982339514629558"
+    },
+    {
+        "name": "Gaylord Treatment Center",
+        "city": "Gaylord",
+        "latitude": "45.020615471667469",
+        "longitude": "-84.679476199223075"
+    },
+    {
+        "name": "Lansing Treatment Center",
+        "city": "Lansing",
+        "latitude": "42.696723863028510",
+        "longitude": "-84.564523647328585"
+    },
+    {
+        "name": "Mount Pleasant Treatment Center",
+        "city": "Mt. Pleasant",
+        "latitude": "43.617995985725237",
+        "longitude": "-84.760590539130888"
+    },
+    {
+        "name": "Columbia MO Treatment Center",
+        "city": "Columbia",
+        "latitude": "38.972374481400458",
+        "longitude": "-92.320972989120449"
+    },
+    {
+        "name": "Joplin Treatment Center",
+        "city": "Joplin",
+        "latitude": "37.088061937379209",
+        "longitude": "-94.477885152561939"
+    },
+    {
+        "name": "Kansas City Treatment Center",
+        "city": "Kansas City",
+        "latitude": "39.080799913583029",
+        "longitude": "-94.574031889032355"
+    },
+    {
+        "name": "Poplar Bluff Treatment Center",
+        "city": "Poplar Bluff",
+        "latitude": "36.769801858358946",
+        "longitude": "-90.418549744851063"
+    },
+    {
+        "name": "Springfield North Treatment Center",
+        "city": "Springfield",
+        "latitude": "37.242406182239726",
+        "longitude": "-93.326629975162902"
+    },
+    {
+        "name": "Springfield South Treatment Center",
+        "city": "Springfield",
+        "latitude": "37.165986067336192",
+        "longitude": "-93.288840656409576"
+    },
+    {
+        "name": "West Plains Treatment Center",
+        "city": "West Plains",
+        "latitude": "36.713622504318266",
+        "longitude": "-91.875632552853105"
+    },
+    {
+        "name": "Cheyenne Treatment Center",
+        "city": "Cheyenne",
+        "latitude": "36.218110338069856",
+        "longitude": "-115.185953273010327"
+    },
+    {
+        "name": "Desert Inn Treatment Center",
+        "city": "Desert Inn",
+        "latitude": "36.131037582761145",
+        "longitude": "-115.108125776022874"
+    },
+    {
+        "name": "McDaniel Treatment Center",
+        "city": "McDaniel",
+        "latitude": "36.200632882880825",
+        "longitude": "-115.120071006650221"
+    },
+    {
+        "name": "Reno Treatment Center",
+        "city": "Reno",
+        "latitude": "39.511105994092908",
+        "longitude": "-119.793718513501673"
+    },
+    {
+        "name": "Ahoskie Treatment Center",
+        "city": "Ahoskie",
+        "latitude": "36.287398948098414",
+        "longitude": "-76.993238291243856"
+    },
+    {
+        "name": "Asheville Treatment Center",
+        "city": "Asheville",
+        "latitude": "35.532957747733946",
+        "longitude": "-82.606141869094770"
+    },
+    {
+        "name": "Clyde Treatment Center",
+        "city": "Clyde",
+        "latitude": "35.526962206824706",
+        "longitude": "-82.951103937578580"
+    },
+    {
+        "name": "Elizabeth City Treatment Center",
+        "city": "Elizabeth City",
+        "latitude": "36.321543641409640",
+        "longitude": "-76.218503829599896"
+    },
+    {
+        "name": "Wilson Professional Services Treatment Center",
+        "city": "Wilson",
+        "latitude": "35.769563382019591",
+        "longitude": "-77.940052637396633"
+    },
+    {
+        "name": "Johnston Treatment Center",
+        "city": "Johnston",
+        "latitude": "41.805160780464803",
+        "longitude": "-71.467354032532384"
+    },
+    {
+        "name": "Middletown Treatment Center",
+        "city": "Middletown",
+        "latitude": "41.523104672365463",
+        "longitude": "-71.294635579376404"
+    },
+    {
+        "name": "Pawtucket Treatment Center",
+        "city": "Pawtucket",
+        "latitude": "41.872566676482187",
+        "longitude": "-71.376708404793561"
+    },
+    {
+        "name": "Providence Treatment Center",
+        "city": "Providence",
+        "latitude": "41.790156520625914",
+        "longitude": "-71.423411617788574"
+    },
+    {
+        "name": "Westerly Treatment Center",
+        "city": "Westerly",
+        "latitude": "41.361462153065702",
+        "longitude": "-71.828380040872958"
+    },
+    {
+        "name": "Aiken Treatment Center",
+        "city": "Aiken",
+        "latitude": "33.575582918830150",
+        "longitude": "-81.764371310008997"
+    },
+    {
+        "name": "North Charleston Treatment Center",
+        "city": "North Charleston",
+        "latitude": "32.849839190589087",
+        "longitude": "-79.978683034247084"
+    },
+    {
+        "name": "Spartanburg Treatment Center",
+        "city": "Spartanburg",
+        "latitude": "34.996953814968180",
+        "longitude": "-81.983272176613397"
+    },
+    {
+        "name": "Columbia Treatment Center",
+        "city": "Columbia",
+        "latitude": "35.602688520483440",
+        "longitude": "-87.063168784124258"
+    },
+    {
+        "name": "Dyersburg Treatment Center",
+        "city": "Dyersburg",
+        "latitude": "36.056635239431650",
+        "longitude": "-89.377102252519435"
+    },
+    {
+        "name": "Jackson Treatment Center",
+        "city": "Jackson",
+        "latitude": "36.194899340319324",
+        "longitude": "-88.823282072203170"
+    },
+    {
+        "name": "Knoxville Ailor Treatment Center",
+        "city": "Knoxville",
+        "latitude": "35.964739247554597",
+        "longitude": "-83.940364382408362"
+    },
+    {
+        "name": "Knoxville Citico Treatment Center",
+        "city": "Knoxville",
+        "latitude": "35.964114019409514",
+        "longitude": "-83.940278551728824"
+    },
+    {
+        "name": "Knoxville Bernard Treatment center",
+        "city": "Knoxville",
+        "latitude": "35.974851216199809",
+        "longitude": "-83.931169712566884"
+    },
+    {
+        "name": "Knoxville Medical Services",
+        "city": "Knoxville",
+        "latitude": "36.024961620980527",
+        "longitude": "-83.988465659921559"
+    },
+    {
+        "name": "Madison Treatment Center",
+        "city": "Madison",
+        "latitude": "36.298089501791289",
+        "longitude": "-86.695902060297442"
+    },
+    {
+        "name": "Memphis Mid-town Treatment Center",
+        "city": "Memphis",
+        "latitude": "35.139203443984215",
+        "longitude": "-90.003422037867097"
+    },
+    {
+        "name": "Memphis North Treatment Center",
+        "city": "Memphis",
+        "latitude": "35.183970091467380",
+        "longitude": "-89.890676899775883"
+    },
+    {
+        "name": "Memphis South Treatment Center",
+        "city": "Memphis",
+        "latitude": "35.051411678999486",
+        "longitude": "-89.912515345893510"
+    },
+    {
+        "name": "Murfreesboro Treatment Center",
+        "city": "Murfreesboro",
+        "latitude": "35.853143204827255",
+        "longitude": "-86.398469514615343"
+    },
+    {
+        "name": "Nashville Treatment Centre",
+        "city": "Nashville",
+        "latitude": "36.156422971155926",
+        "longitude": "-86.806138760405275"
+    },
+    {
+        "name": "Paris Treatment Center",
+        "city": "Paris",
+        "latitude": "36.321367327982479",
+        "longitude": "-88.277428836978601"
+    },
+    {
+        "name": "Savannah Treatment Center",
+        "city": "Savannah",
+        "latitude": "35.226427201446043",
+        "longitude": "-88.229017553725356"
+    },
+    {
+        "name": "Chesapeake Treatment Center",
+        "city": "Chesapeake",
+        "latitude": "36.866545565953061",
+        "longitude": "-76.413311613841955"
+    },
+    {
+        "name": "Chesapeake South Treatment Center",
+        "city": "Chesapeake",
+        "latitude": "36.744058448961091",
+        "longitude": "-76.245460398013748"
+    },
+    {
+        "name": "Franklin Treatment Center",
+        "city": "Franklin",
+        "latitude": "36.688639060401272",
+        "longitude": "-76.905650513979268"
+    },
+    {
+        "name": "Glen Allen Treatment Center",
+        "city": "Glen Allen",
+        "latitude": "37.691679945880651",
+        "longitude": "-77.545504320577052"
+    },
+    {
+        "name": "Newport News Treatment Center",
+        "city": "Newport News",
+        "latitude": "37.015104798072407",
+        "longitude": "-76.440738275086161"
+    },
+    {
+        "name": "Staunton Treatment Center",
+        "city": "Staunton",
+        "latitude": "38.191198724320664",
+        "longitude": "-79.024947774162413"
+    },
+    {
+        "name": "Virginia Beach Treatment Center",
+        "city": "Virginia Beach",
+        "latitude": "36.840460587584076",
+        "longitude": "-76.184246597939122"
+    },
+    {
+        "name": "Washington D.C. Treatment Center",
+        "city": "Washington",
+        "latitude": "38.867560816591940",
+        "longitude": "-76.986354573620062"
+    },
+    {
+        "name": "Grand Bay Treatment Center",
+        "city": "Grand Bay",
+        "latitude": "30.500162489170595",
+        "longitude": "-88.333108295367836"
+    },
+    {
+        "name": "Bogalusa Treatment Center",
+        "city": "Bogalusa",
+        "latitude": "30.778447801121963",
+        "longitude": "-89.865117842329894"
+    },
+    {
+        "name": "Greenfield Treatment Center",
+        "city": "Jacksonville",
+        "latitude": "30.278681000000000",
+        "longitude": "-81.715323000000000"
+    }
+]

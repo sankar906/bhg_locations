@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearest Center Finder</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+        h1 { color: #333; }
+        
+        /* Input Section Styling */
+        .controls { background: #f4f4f9; padding: 1.5rem; border-radius: 8px; border: 1px solid #ddd; }
+        label { font-weight: bold; display: block; margin-bottom: 0.5rem; }
+        select { width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+        
+        /* Results Styling */
+        #results { margin-top: 2rem; }
+        .result-card { background: white; border: 1px solid #eee; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; }
+        .result-rank { font-weight: bold; color: #555; margin-right: 1rem; min-width: 20px; }
+        .result-info { flex-grow: 1; }
+        .result-name { font-weight: bold; color: #2c3e50; }
+        .result-city { color: #7f8c8d; font-size: 0.9rem; }
+        .result-dist { font-weight: bold; color: #2980b9; white-space: nowrap; }
+        
+        .hidden { display: none; }
+        .loading { color: #7f8c8d; font-style: italic; }
+    </style>
+</head>
+<body>
+
+    <h1>📍 Nearest Center Finder</h1>
+
+    <div class="controls">
+        <div id="loadingMessage" class="loading">Loading locations...</div>
+        
+        <div id="step2" class="hidden">
+            <label for="locationSelect">Select a Starting Location:</label>
+            <select id="locationSelect">
+                <option value="" disabled selected>-- Choose a Center --</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="results"></div>
+
+    <script type="module">
+        import LatLon from 'https://cdn.jsdelivr.net/npm/geodesy@2.2.1/latlon-spherical.js';
+
+        let locationsData = [];
+        const locationSelect = document.getElementById('locationSelect');
+        const resultsDiv = document.getElementById('results');
+        const step2Div = document.getElementById('step2');
+        const loadingMessage = document.getElementById('loadingMessage');
+
+        // 1. Automatically Load locations.json
+        async function loadLocations() {
+            try {
+                const response = await fetch('./locations.json');
+                if (!response.ok) throw new Error('Failed to load locations.json');
+                
+                locationsData = await response.json();
+                populateDropdown();
+                step2Div.classList.remove('hidden');
+                loadingMessage.classList.add('hidden');
+                console.log(`Success! Loaded ${locationsData.length} locations.`);
+            } catch (error) {
+                loadingMessage.textContent = `Error loading locations: ${error.message}`;
+                console.error(error);
+            }
+        }
+
+        // 2. Populate Dropdown
+        function populateDropdown() {
+            locationSelect.innerHTML = '<option value="" disabled selected>-- Choose a Center --</option>';
+            // Sort alphabetically for easier finding
+            const sortedLocations = [...locationsData].sort((a, b) => a.name.localeCompare(b.name));
+            
+            sortedLocations.forEach((loc) => {
+                const option = document.createElement('option');
+                option.value = loc.name; 
+                option.textContent = `${loc.name} (${loc.city})`;
+                locationSelect.appendChild(option);
+            });
+        }
+
+        // 3. Handle Dropdown Change (The Logic)
+        locationSelect.addEventListener('change', () => {
+            const selectedName = locationSelect.value;
+            const targetLoc = locationsData.find(l => l.name === selectedName);
+
+            if (!targetLoc) return;
+
+            // Calculate distance to ALL other locations
+            const calculated = locationsData.map(loc => {
+                // Skip the selected location itself
+                if (loc.name === targetLoc.name) return null;
+
+                // Using Vincenty formula for accurate distance calculation
+                const p1 = new LatLon(targetLoc.latitude, targetLoc.longitude);
+                const p2 = new LatLon(loc.latitude, loc.longitude);
+                const distMeters = p1.distanceTo(p2);
+
+                return {
+                    ...loc,
+                    distanceMeters: distMeters,
+                    distanceKm: (distMeters / 1000).toFixed(2)
+                };
+            }).filter(item => item !== null); // Remove the null (self)
+
+            // Sort by distance (Smallest first)
+            calculated.sort((a, b) => a.distanceMeters - b.distanceMeters);
+
+            // Display Results with target info
+            displayResults(calculated, targetLoc);
+        });
+
+        // 4. Render Results to Screen
+        function displayResults(allCenters, targetLoc) {
+            let html = `<div style="background: #e8f4f8; padding: 1rem; border-radius: 4px; margin-bottom: 1rem;">
+                <h3>${targetLoc.name}</h3>
+                <p><strong>City:</strong> ${targetLoc.city}</p>
+                <p><strong>Coordinates:</strong> Lat: ${targetLoc.latitude}, Long: ${targetLoc.longitude}</p>
+            </div>`;
+            
+            html += `<h3>All Treatment Centers (${allCenters.length} total):</h3>`;
+            
+            allCenters.forEach((loc, index) => {
+                html += `
+                    <div class="result-card">
+                        <span class="result-rank">#${index + 1}</span>
+                        <div class="result-info">
+                            <div class="result-name">${loc.name}</div>
+                            <div class="result-city">${loc.city}</div>
+                            <div class="result-coords">Lat: ${loc.latitude}, Long: ${loc.longitude}</div>
+                        </div>
+                        <div class="result-dist">${loc.distanceKm} km</div>
+                    </div>
+                `;
+            });
+            
+            resultsDiv.innerHTML = html;
+        }
+
+        // Load locations on page load
+        loadLocations();
+    </script>
+</body>
+</html>
